@@ -99,5 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SourceOfTruth-Dev.publish.xml" />
+    <None Include="Deployment\PostDeployment\MultiUserMode.sql" />
   </ItemGroup>
 </Project>
