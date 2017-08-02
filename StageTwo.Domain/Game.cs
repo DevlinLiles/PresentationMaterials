@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace StageOne.Domain
+namespace StageTwo.Domain
 {
     public class Game
     {
@@ -75,7 +73,7 @@ namespace StageOne.Domain
         {
             while (Players.Count(x => !x.Bankrupt) > 1)
             {
-                foreach (var player in Players.Where(x => !x.Bankrupt))
+                foreach (var player in Players)
                 {
                     player.TakeTurn(_dice, Board);
                 }

@@ -30,31 +30,11 @@ namespace StageOne.Domain
             var square = board[CurrentSquare];
             switch (square.Type)
             {
-                case SquareType.Chance:
-                    {
-
-                    }
-                    break;
-                case SquareType.CommunityChest:
-                    {
-
-                    }
-                    break;
-                case SquareType.Go:
-                    {
-
-                    }
-                    break;
-                case SquareType.FreeParking:
-                    {
-
-                    }
-                    break;
-                case SquareType.GoToJail:
-                    {
-
-                    }
-                    break;
+                case SquareType.Chance: { } break;
+                case SquareType.CommunityChest: { } break;
+                case SquareType.Go: { } break;
+                case SquareType.FreeParking: { } break;
+                case SquareType.GoToJail: { } break;
                 case SquareType.Railroad:
                     {
                         if (square.Owner == null)
