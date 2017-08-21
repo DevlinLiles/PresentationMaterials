@@ -18,8 +18,8 @@ namespace StageTwo.Domain
         {
             return new []
             {
-                new Square(SquareType.Go, "Go", 0, 0),
-                new Square(SquareType.RealEstate, "Mediterranean Ave", 60, 2),
+                new Go(),
+                new RealEstate("Mediterranean Ave",  60, 2), 
                 new Square(SquareType.CommunityChest, "Community Chest", 0, 0),
                 new Square(SquareType.RealEstate, "Baltic Ave", 60, 4),
                 new Square(SquareType.IncomeTax, "Income Tax", 0, 0),
@@ -75,7 +75,7 @@ namespace StageTwo.Domain
             {
                 foreach (var player in Players)
                 {
-                    player.TakeTurn(_dice, Board);
+                    player.TakeTurn(_dice);
                 }
             }
         }

@@ -47,7 +47,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RollResult.cs" />
     <Compile Include="Card.cs" />
+    <Compile Include="Squares\CardDraw.cs" />
+    <Compile Include="Squares\Go.cs" />
+    <Compile Include="Squares\Property.cs" />
+    <Compile Include="Squares\PropertyGroup.cs" />
+    <Compile Include="Squares\Railroad.cs" />
+    <Compile Include="Squares\RealEstate.cs" />
     <Compile Include="Squares\Square.cs" />
+    <Compile Include="Squares\Utility.cs" />
     <Compile Include="SquareType.cs" />
     <Compile Include="Token.cs" />
   </ItemGroup>

@@ -18,7 +18,7 @@ namespace StageTwo.Domain
         public RollResult LastRoll { get; set; }
 
 
-        public void TakeTurn(IDice dice, Square[] board)
+        public void TakeTurn(IDice dice)
         {
             var roll = dice.Roll();
             for (int index = 0; index < roll.NumberRolled; index++)
